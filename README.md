@@ -7,7 +7,7 @@ cancer detection, leading to improved treatment outcomes and reduced mortality r
 
 # Tri-Fusion Model for Lung and Colon Cancer Classification
 
-This repository contains the implementation and analysis of the **Tri-Fusion Model**, a deep learning-based framework for classifying histopathological images of lung and colon cancers. The model leverages advanced preprocessing techniques and cutting-edge neural networks to achieve high classification accuracy and reliable predictions.
+This repository contains the implementation and analysis of the **Tri-Fusion Model**, a deep learning-based framework for classifying histopathological images of lung and colon cancers. The model leverages advanced preprocessing techniques and cutting-edge neural networks to achieve high classification accuracy and reliable predictions. The TriFusionNet model combines three pre-trained architectures—MobileNetV2, InceptionV3, and EfficientNetB7—leveraging their strengths for enhanced lung and colon cancer classification. These models, pre-trained on ImageNet weights, are fine-tuned with custom convolutional and dense layers to maximize feature extraction, reduce dimensionality, and achieve robust multi-class classification.
 
 ---
 
@@ -103,8 +103,5 @@ The repository includes visualizations of predictions and preprocessing steps:
 - TensorFlow/Keras
 - NumPy, Pandas, Matplotlib, and other standard libraries
 
-### **Steps to Run**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/tri-fusion-model.git
+
 
